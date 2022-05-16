@@ -10,19 +10,30 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
+      <div>
+        <a class="leftHeader">View High Scores</a>
+      </div>
+      <div>
+        <a class="rightHeader"
+          >Time Remaining: <span ID="countDown">180 seconds</span></a
+        >
+      </div>
+    </header>
+
+    <main>
       <h1 class="page-title">Coding Quizinator</h1>
       <p>
         This quiz will test your knowledge of coding. There is a time limit!
       </p>
       <br />
-      <button class="btn">Let's Start!</button>
-    </header>
+      <button class="btn" id="letsStart">Let's Start!</button>
+    </main>
 
     <script src="script.js"></script>
 
     <!--Formatting for new questions-->
-    <section class="questionFormat">
+    <section class="questionFormat" id="firstQuestion">
       <h2>QUESTIONS HERE</h2>
       <ul>
         <li><button class="btn">Answer</button></li>
