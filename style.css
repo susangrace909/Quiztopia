@@ -60,6 +60,10 @@ main p {
   top: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 h2 {
   color: black;
   font-size: 15px;
