@@ -6,36 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Quizinator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-
-  <header class="header">
-    <div>
-      <a class="leftHeader">View High Scores</a>
-    </div>
-    <div>
-      <a class="rightHeader"
-        >Time Remaining: <span ID="countDown">180 seconds</span></a
-      >
-    </div>
-  </header>
   <body>
-    <div id="startQuizScreen">
-      <h1 class="page-title">Coding Quizinator</h1>
-      <p>
-        This quiz will test your knowledge of coding. There is a time limit!
-      </p>
-      <br />
-      <button class="btn" id="letsStartBtn">Let's Start!</button>
-    </div>
+    <header>
+      <div>
+        <a class="leftHeader">View High Scores</a>
+      </div>
+      <div>
+        <a class="rightHeader"
+          >Time Remaining: <span ID="countDown">180 seconds</span></a
+        >
+      </div>
+    </header>
 
-    <div id="quizQuestionsScreen" class="hidden">
-      <h2 id="question-text"></h2>
-      <div id="questionChoices"></div>
-      <p id="results"></p>
-    </div>
-    <script src="script.js"></script>
+    <main>
+      <!--Start quiz screen-->
+      <div id="startQuizScreen">
+        <h1 class="page-title">Coding Quizinator</h1>
+        <p>
+          This quiz will test your knowledge of coding. There is a time limit!
+        </p>
+        <br />
+        <button class="btn" id="letsStartBtn">Let's Start!</button>
+      </div>
+
+      <!--Quiz questions screen(s)-->
+      <div id="quizQuestionsScreen" class="hidden">
+        <h2 id="question-text"></h2>
+        <ul id="questionChoices">
+          <li id="questionBtn"></li>
+          <li id="questionBtn"></li>
+          <li id="questionBtn"></li>
+          <li id="questionBtn"></li>
+        </ul>
+        <p id="results"></p>
+      </div>
+      <script src="./assets/js/script.js"></script>
+    </main>
+    <br />
+    <br />
+    <footer>Made by Susan Pero, 2022</footer>
   </body>
-
-  <footer>Made by Susan Pero, 2022</footer>
 </html>
