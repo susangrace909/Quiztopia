@@ -81,6 +81,28 @@ ul {
   list-style: none;
 }
 
+#enterHS {
+  background-color: rgb(116, 144, 169);
+  height: 200px;
+  width: 150px;
+  margin: auto;
+  padding: 25px;
+  text-align: left;;
+  border-radius: 5%;
+  display:none;
+}
+
+#hsText {
+  font-size: 50px;
+}
+
+#hsName{
+  color: #000000;
+  background-color: #e4e4e4;
+  width:50%;
+  padding-left:5px;
+}
+
 footer {
   color: black;
   font-size: 10px;

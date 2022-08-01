@@ -12,6 +12,8 @@ Create a time limit for the game using time functions
 
 Write conditional statements to determine wrong and right answers
 
-Use client-side storage to store high scores
+!!!Use client-side storage to store high scores
 
 Use GitHub Pages to publish the page to the web
+
+!!!!When answered incorrectly, time subtracted from clock

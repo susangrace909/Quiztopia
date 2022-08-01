@@ -48,6 +48,8 @@ var questions = [
     correctAnswer: "<button>",
   },
 ];
+
+//Check answers
 function checkAnswer(event) {
   console.log("check answer please");
   var currentQuestion = questions[currentQuestionIndex];
@@ -73,6 +75,7 @@ function checkAnswer(event) {
   }
 }
 
+//Deduct time when answer wrong
 function deductTime() {
   counter = counter - 10;
   //shorthand
@@ -83,6 +86,7 @@ function deductTime() {
   }
 }
 
+//show questions
 function displayQuestion() {
   console.log("display question please");
   var currentQuestion = questions[currentQuestionIndex];
@@ -96,9 +100,9 @@ function displayQuestion() {
     button.textContent = choices[i];
     questionChoicesElement.appendChild(button);
   }
-  // currentQuestionIndex = currentQuestionIndex + 1;
-  // console.log({ currentQuestionIndex }, "2");
 }
+
+var resultsScreenEl = document.querySelector("#enterHS");
 
 // end quiz function
 function endQuiz() {
@@ -106,6 +110,9 @@ function endQuiz() {
   clearInterval(startCountdown);
   //  get final score
   //display/save in local storage
+  //results screen
+  resultsScreenEl.classList.remove("hidden");
+  resultsScreenEl.style.display = "block";
 }
 
 letsStartBtnElement.addEventListener("click", function () {
