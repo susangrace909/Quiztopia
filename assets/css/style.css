@@ -61,6 +61,30 @@ main p {
   top: 0;
 }
 
+.questionBtn {
+  margin: auto;
+  outline: none;
+  border: none;
+  display: flex;
+  padding: 10px 15px;
+  background: navy;
+  color: white;
+  font-size: 2.2rem;
+  border-radius: 15px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionBtn:hover {
+  opacity: 0.5;
+}
+
+.questionBtn:active {
+  box-shadow: 0 0px var(--grey);
+  top: 0;
+}
+
 .hidden {
   display: none;
 }
@@ -70,11 +94,6 @@ h2 {
   font-size: 15px;
   text-align: left;
   margin-left: 35px;
-}
-
-.questionFormat {
-  flex: 1;
-  margin: 0 20px 20px;
 }
 
 ul {
