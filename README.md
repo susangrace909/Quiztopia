@@ -1,19 +1,23 @@
 # Quiztopia
 
-Create variables to store the quiz questions
+## User Story
 
-Use mouse-click events to start the quiz
+- As a coding boot camp student, I want to take a timed quiz on JavaScript fundamentals that stores high scores so that I can gauge my progress compared to my peers.
 
-Write for loops to cycle through quiz questions
+## Acceptance Criteria
 
-Use key-press events to receive user input in the form of answers to quiz questions
+- When I click the start button, then a timer starts and I am presented with a question
+- When I answer a question, then I am presented with another question
+- When I answer a question incorrectly, then time is subtracted from the clock
+- When all questions are answered or the timer reaches 0, then the game is over
+- When the game is over, then I can save my initials and score
 
-Create a time limit for the game using time functions
+## Repository Link
 
-Write conditional statements to determine wrong and right answers
+- Repository can be found at:
+  [GitHub](https://github.com/susangrace909/Quiztopia.git)
+  [Live](https://susangrace909.github.io/Quiztopia/)
 
-!!!Use client-side storage to store high scores
+## Screenshot:
 
-Use GitHub Pages to publish the page to the web
-
-!!!!When answered incorrectly, time subtracted from clock
+![Screenshot of website](assets/Quiztopia.png)
